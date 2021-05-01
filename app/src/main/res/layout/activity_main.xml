@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/image2"
+    >
+
+    <Button
+        android:id="@+id/cgpa"
+        android:onClick="goToCgpa"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="@string/calculate_cgpa"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:textStyle="bold"
+        android:layout_marginTop="90dp"
+        android:textSize="27sp"
+        android:background="@drawable/but"
+        android:textColor="#f7f6f6"
+        android:fontFamily="cursive"
+
+
+        />
+    <Button
+        android:id="@+id/history"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="History"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70sp"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:onClick="History"
+        android:background="@drawable/but"
+        android:fontFamily="cursive"
+        android:textColor="#f7f6f6"
+        />
+    <Button
+        android:id="@+id/guide"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="User Guide"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="70dp"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:onClick="guide"
+        android:background="@drawable/but"
+        android:fontFamily="cursive"
+        android:textColor="#f7f6f6"
+        />
+
+</LinearLayout>

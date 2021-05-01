@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".display_history"
+    android:orientation="vertical"
+    android:background="@drawable/image2"
+    >
+
+
+        <Button
+            android:id="@+id/show"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="100dp"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="Show history"
+            android:textSize="18dp"
+            android:onClick="Show"
+            android:background="@drawable/but"
+            android:textColor="#f7f6f6"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+        <TextView
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="Input S/N for delete rows"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:textStyle="bold"/>
+        <EditText
+            android:id="@+id/edel"
+            android:layout_width="130dp"
+            android:layout_height="50dp" />
+
+
+    </LinearLayout>
+
+
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="130dp"
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:text="Delete"
+            android:textSize="18dp"
+            android:onClick="Delete"
+            android:background="@drawable/but"
+            android:textColor="#f7f6f6"/>
+
+
+
+</LinearLayout>

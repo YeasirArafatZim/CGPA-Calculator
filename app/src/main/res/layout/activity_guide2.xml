@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/a2">
+
+
+    <Button
+        android:id="@+id/mainmenu1"
+        android:background="@drawable/rounded_button"
+        android:layout_width="149dp"
+        android:layout_height="50sp"
+        android:layout_marginLeft="30sp"
+        android:onClick="back"
+        android:layout_marginTop="450sp"
+        android:text="back"
+        android:textSize="20sp"/>
+
+    <Button
+        android:background="@drawable/rounded_button"
+        android:id="@+id/next1"
+        android:layout_marginTop="450sp"
+        android:onClick="nxt1"
+        android:layout_marginLeft="60sp"
+        android:layout_width="120sp"
+        android:layout_height="50sp"
+        android:text="Next"
+        android:textSize="20sp"
+        />
+
+
+</LinearLayout>

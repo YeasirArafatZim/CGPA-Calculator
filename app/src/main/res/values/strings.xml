@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CGPA Calculator</string>
+    <string name="calculate_cgpa">Calculate CGPA</string>
+
+    <string-array name="grade">
+        <item>A+</item>
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>D</item>
+        <item>F</item>
+    </string-array>
+    <string name="title_activity_user">user</string>
+
+</resources>
